@@ -6,7 +6,7 @@ This simply takes input from a `textarea` and ouptuts the count for each word be
 
 ## Development server
 
-`Run `npm install` to retrieve packages.
+Run `npm install` to retrieve packages.
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
