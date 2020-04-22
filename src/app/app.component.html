@@ -1,0 +1,9 @@
+<div>
+  <textarea style="height: 100px; width: 200px;" #textInput></textarea>
+  <button style="display: block;" (click)="parseText(textInput.value)">Parse</button>
+</div>
+<div>
+  <ul>
+    <li *ngFor="let key of keys">{{ key }}: {{ hash.get(key) }}</li>
+  </ul>
+</div>
